@@ -41,6 +41,11 @@ This project will use the Ubuntu 64 20.04.2.0 LTS VM C++ development environment
  ```
  ./AKFSF-Simulation
  ```
+
+If running in the docker container, make sure you can render the sim GUI by running this in your host machine: 
+```
+xhost +local:Docker
+```
 ### Project Structure ###
 There are 6 main files of interest:
 * kalmanfilter_lkf_student.cpp
