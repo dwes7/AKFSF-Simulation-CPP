@@ -11,5 +11,6 @@ RUN apt update -y && apt upgrade -y && apt install  -y \
     libeigen3-dev \
     libsdl2-dev \ 
     libsdl2-ttf-dev \
+    gdb \ 
     build-essential
 
