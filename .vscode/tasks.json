@@ -4,21 +4,12 @@
         {
             "type": "shell",
             "label": "build",
-            "command": "/usr/bin/g++",
-            "args": [
-                "-g",
-                "${workspaceFolder}/src/*.cpp",
-                "-o",
-                "${workspaceFolder}/${fileBasenameNoExtension}",
-                "-I",
-                "/usr/include/eigen3"
-            ],
+            "command": "make",
+            "args": []
+            ,
             "options": {
                 "cwd": "/usr/bin"
             },
-            "problemMatcher": [
-                "$gcc"
-            ],
             "group": {
                 "kind": "build",
                 "isDefault": true
